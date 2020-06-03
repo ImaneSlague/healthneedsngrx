@@ -10,16 +10,23 @@ import { LoginComponent } from './login/login.component';
 import { EffectsModule } from '@ngrx/effects';
 import { StoreRouterConnectingModule } from '@ngrx/router-store';
 import { HttpClientModule } from '@angular/common/http';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { MenuComponent } from './menu/menu.component';
+import { SendrequestComponent } from './sendrequest/sendrequest.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    LoginComponent
+    LoginComponent,
+    DashboardComponent,
+    MenuComponent,
+    SendrequestComponent,
+    
   ],
   imports: [
     BrowserModule,
-    
+    AngularMaterialModule,
     AppRoutingModule,
     HttpClientModule,
   ],
