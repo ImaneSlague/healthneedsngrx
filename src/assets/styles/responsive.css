@@ -191,6 +191,7 @@
 	.main_nav
 	{
 		display: none;
+		
 	}
 	.search_container
 	{
@@ -392,6 +393,7 @@
 	.home_slider_item_title a
 	{
 		font-size: 20px;
+		
 	}
 	.card-body
 	{
