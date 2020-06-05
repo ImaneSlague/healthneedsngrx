@@ -28,10 +28,11 @@
         <mat-step [stepControl]="firstFormGroup">
           <form [formGroup]="firstFormGroup">
             <ng-template matStepLabel>Fill out your name</ng-template>
+           
             <mat-form-field>
-              <mat-label>Name</mat-label>
-              <input matInput placeholder="Last name, First name" formControlName="firstCtrl" required>
+              <textarea matInput placeholder="Post Txt"  name="Txt" rows="4"></textarea>
             </mat-form-field>
+       
             <div>
               <button mat-button matStepperNext>Next</button>
             </div>
